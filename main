@@ -298,17 +298,3 @@ ctier=[A-Z] url 302 ctier=A
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject
-# > 58
-^https?:\/\/\w+\.58cdn\.com\.cn\/brandads\/ url reject
-^https?:\/\/.+\.58cdn\.com\.cn\/brandads\/ url reject
-^https?:\/\/.+?\.58cdn\.com\.cn\/brandads\/ url reject
-^https?+:\/\/.+?\.58cdn\.com\.cn\/brandads\/ url reject-200
-^https?+:\/\/app\.58\.com\/api\/home\/a(?>dvertising|ppadv)\/ url reject-200
-^https?+:\/\/app\.58\.com\/api\/home\/invite\/popupAdv url reject-200
-^https?+:\/\/app\.58\.com\/api\/log\/ url reject-200
-^https?:\/\/app\.58\.com/api/log url reject
-^https?:\/\/app\.58\.com\/api\/home\/(advertising|appadv)\/ url reject
-^https?:\/\/app\.58\.com\/api\/home\/advertising\/ url reject
-^https?:\/\/app\.58\.com\/api\/home\/appadv\/ url reject
-^https?:\/\/app\.58\.com\/api\/home\/invite\/popupAdv url reject
-^https?:\/\/app\.58\.com\/api\/log\/ url reject
