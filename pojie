@@ -1,3 +1,4 @@
+# > 解锁某些APP
 # > WPS解锁超级V，wpsV，稻壳V
 ^https?:\/\/account\.wps\.cn\/api\/users url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 # > 066 酷我音乐解除下载权限 (2022-01-25 by ddgksf2013
