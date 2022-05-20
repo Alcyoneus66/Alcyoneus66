@@ -6,10 +6,6 @@
 # > "reject-img" 策略返回 HTTP 状态码 200，同时附带 1px gif
 # > "reject-dict" 策略返回 HTTP 状态码 200，同时附带一个空的 JSON 对象
 # > "reject-array" 策略返回 HTTP 状态码 200，同时附带一个空的 JSON 数组
-# > 云闪付（默认关闭，只使用分流去云闪付广告）
-# > ^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/long url reject
-# > ^https?+:\/\/(tysdk|ads)\.95516\.com url reject-dict
-# > ads.95516.com和tysdk.95516.com这两个域名都拦截
 # > 优酷
 ^https?:\/\/vali\.cp31\.ott\.cibntv\.net\/youku url reject
 ^https?+:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/.+?\.mp4\?sid= url reject-200
