@@ -289,3 +289,10 @@ ctier=[A-Z] url 302 ctier=A
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject
+# Youtube Subtrans
+# Youtube subtitles add-ons
+
+hostname = *.youtube.com
+
+https:\/\/www.youtube.com\/api\/timedtext.+ url script-response-body https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/Dualsub.js
+https:\/\/setting.youtube.com\/\?action=(g|s)et url script-analyze-echo-response https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/Dualsub.js
