@@ -1,0 +1,16 @@
+# > WPS解锁超级V，wpsV，稻壳V
+^https?:\/\/account\.wps\.cn\/api\/users url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+# > 066 酷我音乐解除下载权限 (2022-01-25 by ddgksf2013
+^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver=\d url script-request-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo /kuwodl.js
+# > 美图秀秀
+^https?:\/\/mea\.meitudata\.com\/kaiping url 拒绝
+>美登陆图秀模板022.2.17）手机解锁V（包括：付费展示模板、#01高级不高级、高级不等），
+^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https ://raw.githubusercontent.com/28413761/QX/main/jiaoben/MeiTuXiuXiu.js
+# > WPS
+^https?:\/\/ios\.wps\.cn\/ad-statistics-service url 拒绝
+^https?+:\/\/ios\.wps\.cn\/ad-statistics-service url reject-200
+^https?+:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ url reject-200
+# > 酷我音乐解锁SV
+^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent. com/28413761/QX/main/jiaoben/Kuwo.js
+# > 百度网盘解锁V，视频倍速播放     
+^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script /master/Surge/JS/BaiduCloud.js
