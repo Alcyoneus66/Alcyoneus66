@@ -29,8 +29,8 @@ function ISP_ValidCheck(para) {
   }
 }
 
-function Area_check(para) {
-  if(para=="中华民国"){
+function Area_check(para)  {
+  if(o=='中华民国'||o=='中華民國')"){
   return "台湾"
   } else
   {
