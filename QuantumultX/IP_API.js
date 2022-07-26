@@ -30,9 +30,9 @@ function ISP_ValidCheck(para) {
 }
 
 function Area_check(para) {
-  if(_0x5de571=='中华民国'||_0x5de571=='中華民國'){
-  return'台湾'
-  } else if(_0x5de571=='中国')
+  if(para=="中华民国" || para=="中華民國"){
+  return "台湾"
+  } else
   {
   return para
   }
